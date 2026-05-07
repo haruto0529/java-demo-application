@@ -67,8 +67,8 @@ public class BattleGame {
 	}
 
 	public void checkHp() {
-		System.out.println("敵のHP:" + enemy.hp);
-		System.out.println(player.getName() + "のHP:" + player.hp);
+		System.out.println("敵のHP:" + enemy.getHp());
+		System.out.println(player.getName() + "のHP:" + player.getHp());
 
 	}
 

@@ -7,7 +7,7 @@ public enum Action {
 	private Action(int action) {
 		this.action = action;
 	}
-	
+
 	public static Action fromNumber(int num) {
 		for (Action a : Action.values()) {
 			if (a.action == num) {
